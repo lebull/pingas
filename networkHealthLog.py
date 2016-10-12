@@ -7,10 +7,10 @@ Created on Sep 20, 2016
 import pyping
 import time
 
-from Pingas.newtorkPlot import NetworkPlot
+from networkPlot import NetworkPlot
 
-import Pingas.logger
-logger = Pingas.logger.initLogger()
+import plogger
+logger = plogger.initLogger()
 
 import threading
 

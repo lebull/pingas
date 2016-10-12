@@ -6,10 +6,10 @@ Created on Sep 19, 2016
 
 from threading import Thread
 
-import .logger
-logger = Pingas.logger.initLogger()
+import plogger
+logger = plogger.initLogger()
 
-import pyping
+
 import numpy as np
 from matplotlib import pyplot
 
